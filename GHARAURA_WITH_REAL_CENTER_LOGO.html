@@ -1,0 +1,1301 @@
+
+<!-- 
+AFTER UPLOADING:
+1. Add your Google verification code above
+2. Upload as index.html to GitHub
+3. In Google Search Console submit:
+https://gharaura.com/sitemap.xml
+-->
+
+<!-- 
+SETUP INSTRUCTIONS:
+
+1. Go to https://web3forms.com
+2. Create free account
+3. Copy your Access Key
+4. Replace:
+91290385-1e17-4a05-9736-5ef9040b60c1
+
+with your actual key.
+
+Then upload this file to GitHub again.
+-->
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en" style=""><head>
+
+<!-- GOOGLE SEARCH CONSOLE VERIFICATION -->
+<meta name="google-site-verification" content="PASTE_YOUR_GOOGLE_VERIFICATION_CODE_HERE" />
+
+<!-- SEO -->
+<meta name="description" content="Gharaura - Premium Interior Design Studio specializing in luxury interiors, modular kitchens, wardrobes, and elegant home transformations." />
+<meta name="keywords" content="Gharaura, interior design, luxury interiors, modular kitchen, wardrobes, Jaipur interiors, home decor" />
+<meta name="author" content="Gharaura" />
+
+<link rel="canonical" href="https://gharaura.com/" />
+
+<style>
+/* ===== MOBILE OPTIMIZATION ===== */
+
+html, body{
+overflow-x:hidden;
+width:100%;
+}
+
+img{
+max-width:100%;
+height:auto;
+}
+
+@media (max-width: 768px){
+
+/* Typography */
+.text-display-lg,
+.font-display-lg{
+font-size:48px !important;
+line-height:54px !important;
+letter-spacing:-0.02em !important;
+}
+
+.text-headline-md{
+font-size:32px !important;
+line-height:40px !important;
+}
+
+.text-headline-sm{
+font-size:24px !important;
+line-height:32px !important;
+}
+
+/* Padding */
+.px-margin-desktop{
+padding-left:24px !important;
+padding-right:24px !important;
+}
+
+/* Hero */
+header.h-screen{
+height:90vh !important;
+}
+
+header .flex-wrap{
+flex-direction:column;
+align-items:flex-start;
+}
+
+header button{
+width:100%;
+justify-content:center;
+}
+
+/* Navbar */
+nav .hidden.md\:flex{
+display:none !important;
+}
+
+nav .flex.justify-between{
+gap:16px;
+}
+
+
+nav img{
+height:40px !important;
+width:auto;
+}
+
+nav span.font-display-lg{
+font-size:17px !important;
+letter-spacing:0.24em !important;
+white-space:nowrap;
+line-height:1 !important;
+}
+
+nav a[href="#consultation"]{
+height:40px;
+padding:0 12px !important;
+font-size:8px !important;
+letter-spacing:0.12em !important;
+white-space:nowrap !important;
+display:flex !important;
+align-items:center;
+justify-content:center;
+}
+
+
+header.h-screen{
+height:90vh !important;
+}
+
+header .absolute.inset-0.flex{
+justify-content:flex-end !important;
+padding-bottom:110px !important;
+}
+
+.whatsapp-float{
+width:58px !important;
+height:58px !important;
+right:18px !important;
+bottom:95px !important;
+font-size:24px !important;
+}
+
+}
+
+</style>
+<meta content="GHARAURA | Luxury Interior Design Studio" name="title"/><meta content="Luxury interior design studio in Jaipur specializing in Japandi interiors, modular kitchens, bespoke wardrobes, renovations, and full home interiors." name="description"/><meta content="interior design Jaipur, luxury interiors, modular kitchen, Japandi interiors, Gharaura" name="keywords"/><meta content="GHARAURA" property="og:title"/><meta content="Luxury Interior &amp; Architectural Studio" property="og:description"/><meta content="website" property="og:type"/><style>
+.fade-up{
+opacity:0;
+transform:translateY(40px);
+transition:all 1s ease;
+}
+.fade-up.show{
+opacity:1;
+transform:translateY(0);
+}
+.zoom-hover{
+transition:transform 0.4s ease;
+}
+.zoom-hover:hover{
+transform:scale(1.04);
+}
+button,a{
+transition:all 0.3s ease;
+}
+button:hover,a:hover{
+opacity:0.85;
+transform:translateY(-2px);
+}
+</style><style>
+/* Floating WhatsApp */
+.whatsapp-float{
+position:fixed;
+bottom:24px;
+right:24px;
+width:62px;
+height:62px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+color:white;
+text-decoration:none;
+z-index:9999;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+animation:floatPulse 2s infinite;
+}
+@keyframes floatPulse{
+0%{transform:scale(1);}
+50%{transform:scale(1.08);}
+100%{transform:scale(1);}
+}
+
+/* Loader */
+#loader{
+position:fixed;
+inset:0;
+background:#FAF9F6;
+display:flex;
+align-items:center;
+justify-content:center;
+z-index:100000;
+transition:opacity 1s ease;
+}
+#loader h1{
+font-size:42px;
+letter-spacing:12px;
+font-family:'EB Garamond',serif;
+color:#322C28;
+animation:loaderFade 2s ease infinite alternate;
+}
+@keyframes loaderFade{
+from{opacity:0.4;}
+to{opacity:1;}
+}
+
+/* Mobile Menu */
+.mobile-menu-btn{
+display:none;
+font-size:26px;
+background:none;
+border:none;
+color:#322C28;
+}
+.mobile-menu{
+display:none;
+flex-direction:column;
+gap:18px;
+padding:24px;
+background:#FAF9F6;
+border-top:1px solid #ddd;
+}
+.mobile-menu a{
+text-decoration:none;
+color:#322C28;
+letter-spacing:2px;
+font-size:12px;
+}
+@media(max-width:768px){
+.mobile-menu-btn{
+display:block;
+}
+}
+
+/* Success Popup */
+.success-popup{
+position:fixed;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:#322C28;
+color:white;
+padding:24px 36px;
+z-index:99999;
+display:none;
+letter-spacing:2px;
+text-align:center;
+}
+
+/* Instagram */
+.instagram-section{
+padding:80px 24px;
+text-align:center;
+}
+.instagram-btn{
+display:inline-block;
+margin-top:20px;
+padding:16px 28px;
+background:#322C28;
+color:white;
+text-decoration:none;
+letter-spacing:2px;
+}
+
+</style>
+<style>
+.popup-overlay{
+display:none;
+position:fixed;
+inset:0;
+background:rgba(0,0,0,0.6);
+z-index:99999;
+align-items:center;
+justify-content:center;
+padding:24px;
+}
+.popup-box{
+background:#FAF9F6;
+padding:40px;
+max-width:500px;
+width:100%;
+position:relative;
+animation:popupFade .4s ease;
+}
+.popup-box h2{
+font-size:42px;
+margin-bottom:24px;
+font-family:'EB Garamond',serif;
+}
+.popup-box input,
+.popup-box select{
+width:100%;
+padding:14px;
+margin-bottom:18px;
+border:1px solid #c7bfb4;
+background:transparent;
+}
+.close-popup{
+position:absolute;
+right:20px;
+top:16px;
+font-size:28px;
+cursor:pointer;
+}
+.estimate-result{
+margin-top:20px;
+font-size:22px;
+font-weight:600;
+}
+@keyframes popupFade{
+from{opacity:0;transform:translateY(30px);}
+to{opacity:1;transform:translateY(0);}
+}
+</style>
+
+
+<style>
+/* Premium Mobile Enhancements */
+@media (max-width:768px){
+
+.mobile-quick-actions{
+position:fixed;
+right:18px;
+bottom:110px;
+display:flex;
+flex-direction:column;
+gap:12px;
+z-index:9999;
+}
+
+.mobile-quick-btn{
+width:54px;
+height:54px;
+border-radius:50%;
+background:#2f2723;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.18);
+text-decoration:none;
+}
+
+.mobile-category-scroll{
+display:flex;
+overflow-x:auto;
+gap:12px;
+padding:14px 18px;
+background:#f7f4f1;
+scrollbar-width:none;
+}
+
+.mobile-category-scroll::-webkit-scrollbar{
+display:none;
+}
+
+.mobile-chip{
+flex:0 0 auto;
+padding:10px 18px;
+border-radius:30px;
+background:white;
+border:1px solid #e7dfd7;
+font-size:12px;
+letter-spacing:1px;
+text-transform:uppercase;
+color:#2f2723;
+font-weight:500;
+}
+
+.mobile-premium-strip{
+margin:24px 20px;
+padding:18px 20px;
+background:#2f2723;
+color:white;
+border-radius:18px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.mobile-premium-strip h4{
+margin:0;
+font-size:16px;
+letter-spacing:1px;
+}
+
+.mobile-premium-strip p{
+margin:4px 0 0;
+font-size:12px;
+opacity:.8;
+}
+
+.mobile-premium-strip a{
+background:white;
+color:#2f2723;
+padding:10px 16px;
+border-radius:30px;
+font-size:11px;
+letter-spacing:1px;
+text-decoration:none;
+font-weight:600;
+}
+
+}
+</style>
+
+</head><body class="font-body-md selection:bg-sand-surface selection:text-earth-ink overflow-x-hidden">
+<div id="loader">
+<h1>GHARAURA</h1>
+</div>
+
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>GHARAURA | Architectural Minimalism</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Config Verbatim -->
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-tint": "#665d52",
+                      "sand-surface": "#E5DED1",
+                      "on-tertiary-fixed-variant": "#4a463d",
+                      "on-surface": "#1a1c1a",
+                      "tertiary-fixed-dim": "#ccc6ba",
+                      "surface-bright": "#faf9f6",
+                      "secondary-container": "#efe0d2",
+                      "primary-fixed-dim": "#d1c5b7",
+                      "outline-variant": "#cfc5bb",
+                      "on-error-container": "#93000a",
+                      "on-error": "#ffffff",
+                      "surface-variant": "#e3e2e0",
+                      "surface-dim": "#dbdad7",
+                      "on-secondary": "#ffffff",
+                      "secondary-fixed-dim": "#d2c4b7",
+                      "on-secondary-fixed": "#211a12",
+                      "background": "#faf9f6",
+                      "taupe-detail": "#A69B8F",
+                      "ivory-base": "#FAF9F6",
+                      "on-surface-variant": "#4c463f",
+                      "tertiary-fixed": "#e8e2d5",
+                      "surface-container-lowest": "#ffffff",
+                      "secondary": "#675d52",
+                      "error": "#ba1a1a",
+                      "earth-ink": "#322C28",
+                      "on-primary-fixed-variant": "#4e453b",
+                      "secondary-fixed": "#efe0d2",
+                      "surface": "#faf9f6",
+                      "primary": "#4e463b",
+                      "outline": "#7d766e",
+                      "on-tertiary-fixed": "#1e1b14",
+                      "error-container": "#ffdad6",
+                      "tertiary": "#4a463d",
+                      "primary-container": "#665d52",
+                      "tertiary-container": "#625e54",
+                      "surface-container-low": "#f4f3f1",
+                      "surface-container-high": "#e9e8e5",
+                      "on-primary-fixed": "#211b12",
+                      "on-secondary-container": "#6d6358",
+                      "on-background": "#1a1c1a",
+                      "on-primary-container": "#e3d7c9",
+                      "inverse-surface": "#2f312f",
+                      "on-tertiary-container": "#ded8cb",
+                      "inverse-primary": "#d1c5b7",
+                      "on-primary": "#ffffff",
+                      "inverse-on-surface": "#f2f1ee",
+                      "on-secondary-fixed-variant": "#4e453b",
+                      "surface-container": "#efeeeb",
+                      "primary-fixed": "#eee0d2",
+                      "surface-container-highest": "#e3e2e0",
+                      "on-tertiary": "#ffffff"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "section-gap-md": "64px",
+                      "margin-mobile": "24px",
+                      "unit": "8px",
+                      "gutter": "32px",
+                      "section-gap-lg": "128px",
+                      "base-unit": "8px",
+                      "container-max": "1440px",
+                      "margin-desktop": "80px"
+              },
+              "fontFamily": {
+                      "headline-sm": ["EB Garamond"],
+                      "body-md": ["Inter"],
+                      "body-lg": ["Inter"],
+                      "headline-md": ["EB Garamond"],
+                      "display-lg-mobile": ["EB Garamond"],
+                      "label-caps": ["Inter"],
+                      "display-lg": ["EB Garamond"]
+              },
+              "fontSize": {
+                      "headline-sm": ["28px", {"lineHeight": "36px", "fontWeight": "400"}],
+                      "body-md": ["16px", {"lineHeight": "28px", "fontWeight": "400"}],
+                      "body-lg": ["18px", {"lineHeight": "32px", "letterSpacing": "0.01em", "fontWeight": "400"}],
+                      "headline-md": ["40px", {"lineHeight": "48px", "fontWeight": "400"}],
+                      "display-lg-mobile": ["48px", {"lineHeight": "52px", "letterSpacing": "-0.01em", "fontWeight": "400"}],
+                      "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "500"}],
+                      "display-lg": ["84px", {"lineHeight": "92px", "letterSpacing": "-0.02em", "fontWeight": "400"}]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+        }
+        body { background-color: #FAF9F6; color: #322C28; -webkit-font-smoothing: antialiased; }
+        .hairline-b { border-bottom: 0.5px solid #A69B8F; }
+        .hairline-t { border-top: 0.5px solid #A69B8F; }
+        .hairline-r { border-right: 0.5px solid #A69B8F; }
+        .hairline-all { border: 0.5px solid #A69B8F; }
+        .ma-space { letter-spacing: 0.15em; }
+        .fade-in { animation: fadeIn 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .hairline-y { width: 1px; background-color: rgba(166, 155, 143, 0.3); }
+        .hairline-x { height: 1px; background-color: rgba(166, 155, 143, 0.3); }
+        
+        /* Fixed Reveal Logic: Default visible to prevent empty screen */
+        .reveal { 
+            opacity: 1; 
+            transform: none; 
+            transition: opacity 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94); 
+        }
+        
+        /* Optional: Re-enable subtle reveal only if JS is working */
+        .reveal-ready .reveal {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        .reveal-ready .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        @media (prefers-reduced-motion: reduce) {
+            .reveal { opacity: 1; transform: none; transition: none; }
+        }
+    </style>
+<!-- Persistent TopNavBar -->
+<nav class="bg-ivory-base sticky top-0 z-50 hairline-b" style="backdrop-filter:blur(12px);">
+<div class="flex justify-between items-center w-full px-margin-desktop py-6 max-w-container-max mx-auto">
+<div class="flex items-center gap-5 fade-up">
+<img loading="lazy" alt="GHARAURA Monogram" class="w-auto object-contain h-16 zoom-hover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgKWgIOzNTwybK-2R7V8SArMzO1o_2KEcLBJoqNx3sENUMDmQOnkLJJ4Ay3u1MPG7Qo91IV4uK-5S44_R6Fk5ICjqVna1evfrqNeGFx1GKPR4uAHRwwdzIOf4YCKVzq48iOT8PwUKxi2jsGFYHfALKgdOz27QidMcfAusmbWbtatuWZ-co4AbiZIAGgDj2zNfFObRr7z5tHZgJeR8xhUCJdn1tjSeadCmidHfdatEtaYq02_46DCaqqGZhU92c43j3X1MfgbS_ZglOviU"/>
+<span class="font-display-lg tracking-[0.4em] text-earth-ink uppercase font-light text-headline-sm">GHARAURA</span>
+</div>
+<div class="hidden md:flex gap-10 fade-up">
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-earth-ink transition-opacity duration-500 opacity-70 hover:opacity-100" href="#home">HOME</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-earth-ink transition-opacity duration-500 opacity-70 hover:opacity-100" href="#portfolio">PORTFOLIO</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-earth-ink transition-opacity duration-500 opacity-70 hover:opacity-100" href="#services">
+<div class="mobile-category-scroll">
+<div class="mobile-chip">Luxury Interiors</div>
+<div class="mobile-chip">Modular Kitchen</div>
+<div class="mobile-chip">Wardrobes</div>
+<div class="mobile-chip">Living Spaces</div>
+<div class="mobile-chip">Architecture</div>
+</div>
+
+<div class="mobile-premium-strip">
+<div>
+<h4>Book A Design Call</h4>
+<p>Talk to our luxury interior team</p>
+</div>
+<a href="#contact">CONTACT</a>
+</div>
+
+
+</div>
+</header>
+<!-- Metrics -->
+<section class="bg-ivory-base hairline-b reveal py-16 fade-up">
+<div class="px-margin-desktop max-w-container-max mx-auto fade-up">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-y-12 md:gap-y-0 text-center divide-x-[0.5px] divide-taupe-detail/30">
+<div class="flex flex-col gap-1 px-4 fade-up"><span class="font-display-lg text-4xl md:text-5xl text-earth-ink leading-none">5<span class="text-2xl align-top ml-0.5 text-taupe-detail">+</span></span><span class="font-label-caps text-[11px] text-taupe-detail tracking-[0.15em] uppercase mt-1">Cities Served</span></div>
+<div class="flex flex-col gap-1 px-4 fade-up"><span class="font-display-lg text-4xl md:text-5xl text-earth-ink leading-none">100<span class="text-2xl align-top ml-0.5 text-taupe-detail">+</span></span><span class="font-label-caps text-[11px] text-taupe-detail tracking-[0.15em] uppercase mt-1">Homes Delivered</span></div>
+<div class="flex flex-col gap-1 px-4 fade-up"><span class="font-display-lg text-4xl md:text-5xl text-earth-ink leading-none">10</span><span class="font-label-caps text-[11px] text-taupe-detail tracking-[0.15em] uppercase mt-1">Expert Designers</span></div>
+<div class="flex flex-col gap-1 px-4 fade-up"><span class="font-display-lg text-4xl md:text-5xl text-earth-ink leading-none">10<span class="text-2xl align-top ml-0.5 text-taupe-detail">+</span></span><span class="font-label-caps text-[11px] text-taupe-detail tracking-[0.15em] uppercase mt-1">Years of Excellence</span></div>
+</div>
+</div>
+</section>
+<!-- Services Summary -->
+<section class="py-section-gap-lg px-margin-desktop max-w-container-max mx-auto reveal">
+<div class="text-center mb-16 fade-up">
+<span class="font-label-caps text-label-caps text-taupe-detail ma-space">SERVICES</span>
+<h2 class="font-headline-md text-headline-md text-earth-ink mt-4">One-stop shop for architectural stillness</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter fade-up">
+<div class="group cursor-pointer fade-up">
+<div class="aspect-[4/5] overflow-hidden mb-6 fade-up"><img loading="lazy" alt="Modular" class="w-full h-full object-cover grayscale-[0.3] group-hover:scale-105 transition-transform duration-1000 zoom-hover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd5_P9XEWr1nhyYMHZRp9bG89DcFWOkdqbX73kIX21w0VRRuhqUpZCkF32Bw9_sMnXlVTrW5euBEq8DN_0gaPUo12Vg5L9K5FuZlT1SxWNVvAlfrMi0coJDAyPk3-rb_EL-Eln4PT3nKGcqlj572DnBQfnx6lYkq0Me4ZsIlhGV6nXKVTzkw8KRjC5y1Riy-1HFW0oA17xLvYlfx38FYEcZLsKzIh2cdTrjfXxbK1o1vFFPc9kQCr6sDFCQ_PM11rapzIbGNhNkGCb"/></div>
+<h3 class="font-headline-sm text-headline-sm text-earth-ink mb-2">Modular Interiors</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Functional kitchen, wardrobe, and storage solutions.</p>
+<div class="mt-4 hairline-b w-8 group-hover:w-full transition-all duration-500"></div>
+</div>
+<div class="group cursor-pointer fade-up">
+<div class="aspect-[4/5] overflow-hidden mb-6 fade-up"><img loading="lazy" alt="Full Home" class="w-full h-full object-cover grayscale-[0.3] group-hover:scale-105 transition-transform duration-1000 zoom-hover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8RHvB3WfChrktvfmKTYyoKb6fBHenwZpuEZDAfaNfnwN4H9dQIpHFW4wW7x8K3xp6sW3oGcsdNCsL9dDL2SC6ekybGuTiQ131GdbY_YyPDY4oUVG1i4HSnYLrAEbN0nSjWLVcoXsruuWwwLwSSJs4pXtnCTZ77TzFuS3Cjuks2QXsW9CaAFKIfebED9bjUJSjPsDfiye5FsrwSA9URop8eRbo4zx7DFeNHiDHcgAYmprv9x0lqHvT3r0p0CkuqpylbT0oVlcr5F-o"/></div>
+<h3 class="font-headline-sm text-headline-sm text-earth-ink mb-2">Full Home Interiors</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Turnkey interior solutions for your entire home.</p>
+<div class="mt-4 hairline-b w-8 group-hover:w-full transition-all duration-500"></div>
+</div>
+<div class="group cursor-pointer fade-up">
+<div class="aspect-[4/5] overflow-hidden mb-6 fade-up"><img loading="lazy" alt="Wardrobes" class="w-full h-full object-cover grayscale-[0.3] group-hover:scale-105 transition-transform duration-1000 zoom-hover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCQUxxIna9TobovPsYfbLWt_gVl7SEmmhQ6ARrjxjOa28EczyGy05Wg1C4xoTFGX_rkAXNe8W_e32DKbFVPulpsjgXLzHS3QAjxiK74djrduUhpL2_yn9m0LTNyuuihOmKWfeQyQJl1xGpPxWh_cAGxQBB7H5-l1L1h2ILMFhiUHq_UCt46M-HSxIrLQ2e9BbeoPDQypbt51MOb2Nl6ecpfI8XviZFBUmz1niYPmgxDuvF40rUfoftIEXoD5RMNmv065QyoVVM4yWM"/></div>
+<h3 class="font-headline-sm text-headline-sm text-earth-ink mb-2">Bespoke Wardrobes</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Tailored interiors that redefine elegance through craft.</p>
+<div class="mt-4 hairline-b w-8 group-hover:w-full transition-all duration-500"></div>
+</div>
+<div class="group cursor-pointer fade-up">
+<div class="aspect-[4/5] overflow-hidden mb-6 fade-up"><img loading="lazy" alt="Renovations" class="w-full h-full object-cover grayscale-[0.3] group-hover:scale-105 transition-transform duration-1000 zoom-hover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEjoUMLBBLbn-5Q09R9kVqcFfJQicW3plJsabpGdu_cnPk3zbkd8Zu7G0xBEk1Lu9wwbC8U1NTGwN6_OASseX2noToiZqiqbc8NSEkNABvAuXE_X9NFJb00gSvWe-Qg2l6q4Ju76nt4qO09ST9avYkQIX65INgN3VQg9GdEIUCs9DyfxFhCxuA_M99p7NjEu0WIa3Ay8x0qQje0MaseIPVrvtshrmYFkJy9dXiXTUH6j2jmAQq3x7DV0oH-f6eXQhrwFyZTWUpZ-9o"/></div>
+<h3 class="font-headline-sm text-headline-sm text-earth-ink mb-2">Renovations</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Expert upgrades for your current lived-in spaces.</p>
+<div class="mt-4 hairline-b w-8 group-hover:w-full transition-all duration-500"></div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="bg-earth-ink py-section-gap-lg reveal fade-up">
+<div class="px-margin-desktop max-w-container-max mx-auto fade-up">
+<div class="text-center mb-16 fade-up">
+<span class="font-label-caps text-label-caps text-sand-surface ma-space">TESTIMONIALS</span>
+<h2 class="font-headline-md text-headline-md text-ivory-base mt-4">Voices of Quiet Luxury</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter fade-up">
+<div class="p-12 hairline-all border-sand-surface/20 hover:border-sand-surface/50 transition-all group">
+<span class="material-symbols-outlined text-4xl text-sand-surface mb-8">format_quote</span>
+<p class="font-headline-sm text-headline-sm text-ivory-base italic mb-10 leading-relaxed">"Hats off to the entire team at Gharaura. They finished the project ahead of time and designed the house that we really wanted."</p>
+<div class="flex items-center gap-4 fade-up">
+<div class="w-12 h-12 bg-sand-surface/20 rounded-full fade-up"></div>
+<div class="fade-up">
+<p class="font-label-caps text-label-caps text-ivory-base">ROHIT PAUL &amp; SHVETA</p>
+<p class="font-body-md text-body-md text-sand-surface opacity-60">Jaipur, Malviya Nagar</p>
+</div>
+</div>
+</div>
+<div class="p-12 hairline-all border-sand-surface/20 hover:border-sand-surface/50 transition-all group">
+<span class="material-symbols-outlined text-4xl text-sand-surface mb-8">format_quote</span>
+<p class="font-headline-sm text-headline-sm text-ivory-base italic mb-10 leading-relaxed">"Our experience with the studio was seamless. The project managers ensured our vision of architectural stillness was perfectly executed."</p>
+<div class="flex items-center gap-4 fade-up">
+<div class="w-12 h-12 bg-sand-surface/20 rounded-full fade-up"></div>
+<div class="fade-up">
+<p class="font-label-caps text-label-caps text-ivory-base">SWATI &amp; GAURAV</p>
+<p class="font-body-md text-body-md text-sand-surface opacity-60">Pune, Balewadi</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Science of Beauty -->
+<section class="py-section-gap-lg px-margin-desktop max-w-container-max mx-auto reveal">
+<div class="text-center mb-16 fade-up">
+<span class="font-label-caps text-label-caps text-taupe-detail ma-space">INNOVATION</span>
+<h2 class="font-headline-md text-headline-md text-earth-ink mt-4">The Science of Enduring Beauty</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+<div class="fade-up">
+<div class="space-y-12 fade-up">
+<div class="hairline-b pb-8 fade-up">
+<h4 class="font-label-caps text-label-caps text-earth-ink tracking-[0.2em] mb-4">AQUABLOC® TECHNOLOGY</h4>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Our signature moisture-barrier system for wood, ensuring cabinetry in high-humidity zones remains unaffected for decades.</p>
+</div>
+<div class="hairline-b pb-8 fade-up">
+<h4 class="font-label-caps text-label-caps text-earth-ink tracking-[0.2em] mb-4">ANTIBUBBLE® LAMINATION</h4>
+<p class="font-body-lg text-body-lg text-on-surface-variant">A vacuum-sealed lamination process that guarantees zero delamination, preserving the pristine architectural finish of every surface.</p>
+</div>
+<div class="fade-up">
+<h4 class="font-label-caps text-label-caps text-earth-ink tracking-[0.2em] mb-4">STEEL-REINFORCED CHASSIS</h4>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Structural longevity through hidden high-grade steel reinforcements in all load-bearing modular components.</p>
+</div>
+</div>
+</div>
+<img loading="lazy" alt="Technical cross-section" class="w-full h-auto zoom-hover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlPaY8WeQK7_OpzYTbMvGD2KCZbYdWCBoPD5J7dhkytY2NngaxcqdeIZfRfJn_ErS2qr_4GgjGD9IQ6KVvHsZyMXz36JEeU4h2owZIagVNNj38qQtVi2ChRCgwx2uluZPH63mOFKBGca8X2VRK0ddaf30pEAulFfwZyKBhBNAo5dW8nCcCSRxvSJZTHvrK9hKSESvd7Ws0qnu3dK3yuXGzuv2d3tvpkhdDFSXvclgO_8VXHTR5GVUm2s1ZKj2jxdv3XfcuvM0uQsq3"/>
+</div>
+</section>
+</div>
+<!-- 2. SELECTED WORKS SECTION -->
+<div class="fade-up" id="portfolio">
+<header class="relative w-full h-[90vh] overflow-hidden flex items-center justify-center">
+<img loading="lazy" alt="Architectural hero view" class="absolute inset-0 w-full h-full object-cover zoom-hover" src="https://lh3.googleusercontent.com/aida-public/ADBb0ui5KNuw7rO6bYWUQvWFAgoRBl1pchI87oXwCh9SemyJ7v2mcB7AMh8OsvXlsS1J3SSccS8k2weFf6qtdqtThVNUTgi5BoraK3TkKkT5BqgLwVoDIG2RBbMDrTB6lOCmCglceqA0UxWk4EgSAdtR07SIcyyY6XnPeJlXte4Jb7pqrEM3dpIfgMl82eM5Ov3UXBLx-VZs3eN3mIESk_s9DrPbn2HDv5JsMxv3mBgBd3LRTUvv4hfhMMjYTFO4"/>
+<div class="absolute inset-0 bg-earth-ink/10 fade-up"></div>
+<div class="relative z-10 text-center text-ivory-base reveal">
+<p class="font-label-caps text-label-caps tracking-[0.2em] mb-6">SELECTED WORKS</p>
+<h1 class="font-display-lg text-display-lg md:text-display-lg mb-4">The Art of Stillness</h1>
+<p class="max-w-xl mx-auto font-body-lg text-body-lg opacity-90 px-6">Curating sanctuaries that harmonize Japanese rustic minimalism with Scandinavian functionalism.</p>
+</div>
+</header>
+<main class="max-w-container-max mx-auto px-margin-desktop py-section-gap-lg">
+<!-- Project 01 -->
+<section class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-section-gap-lg items-center reveal">
+<div class="md:col-span-7 fade-up">
+<div class="aspect-[4/3] overflow-hidden group fade-up">
+<img loading="lazy" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 zoom-hover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuArrSQttd79oToi1sC4YNumvwW_94lxpu28w32F6ugt2BLL36QXUPJZtG1xRQxPjLdeqMd3VSsO3Xhe079DDi_l05FFg73g6C_d05y6TInOMixeMxAVpOim_80wFy2gkCD4uCraTNjDUymWlcfWGKFgdYLiziL3YRnmIzSX-t4br9aKblYguBdeJKv6hnoS72sk2IGORAXmhX6muUZIep4XiFYUnGKyTIWoZtnejfsQ_TlBJnJ_29CYeYmiizHTSLH1FcrCUtlDq2__"/>
+</div>
+</div>
+<div class="md:col-span-4 md:col-start-9 fade-up">
+<span class="font-label-caps text-label-caps text-taupe-detail mb-4 block">01 / Gupta's residency,Jaipur</span>
+<h2 class="font-headline-md text-headline-md text-earth-ink mb-6">The Arched Sanctuary</h2>
+<div class="w-12 h-px bg-taupe-detail mb-6 fade-up"></div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 leading-relaxed">
+                    A dialogue between geometry and nature. This residence utilizes soft curves and a central aperture to frame the seasonal shifts of a traditional moss garden. Materiality is reduced to its essence: lime-wash, oak, and stone.
+                </p>
+<a class="font-label-caps text-label-caps border-b border-earth-ink pb-1 hover:opacity-50 transition-opacity" href="#">EXPLORE PROJECT</a>
+</div>
+</section>
+<!-- Project 02 -->
+<section class="mb-section-gap-lg reveal fade-up">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-end">
+<div class="md:col-span-5 order-2 md:order-1 fade-up">
+<h2 class="font-headline-sm text-headline-sm text-earth-ink mb-6">The Tactile Narrative</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8">
+                        We believe that luxury is felt through the hand as much as the eye. The intersection of raw stone and refined timber creates a sensory tension that defines the GHARAURA experience.
+                    </p>
+<div class="border-l border-taupe-detail pl-8 py-2 fade-up">
+<p class="italic font-headline-sm text-headline-sm text-earth-ink/70">"Ma is the space between the notes that makes the music."</p>
+</div>
+</div>
+<div class="md:col-span-7 order-1 md:order-2 fade-up">
+<div class="aspect-video overflow-hidden fade-up">
+<img loading="lazy" alt="Detail of materials" class="w-full h-full object-cover zoom-hover" src="https://lh3.googleusercontent.com/aida-public/ADBb0ujPsP9V3B54TqaKYuzMV3T2A3BEwCFkEkePSFXSPRtoHnnA8pplBzuBJTS6Lw9ayf58DTEfa3_-AbWO2oZRBUjN48tX0gHSZF7TllMravbAtv5qCPJgkT0TL-7QwJ1UwUsXPYxXFSarR2orcTrgIW7czZhYcZTATJG8b5b-95MEwAkeZUQII-95BqreBGVneOKvGKVzCZysWESfNjQRO1Lot8LGcHlD4JLThDaTqRCKfPK3-hSzenwCjHHb"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Project 03 -->
+<section class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center reveal">
+<div class="md:col-span-6 md:col-start-2 fade-up">
+<div class="aspect-[3/4] overflow-hidden fade-up">
+<img loading="lazy" class="w-full h-full object-cover zoom-hover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsBj2cY5x2EjURPwkccgm_Q8I1g3FKWIJFdw4cIM4JTMexRjpod2_Fd6wz8T3HgqBb8MV2FfkY1HTyJ3VuOcuV6MlGFPLrSybCb40E_WW4pJcV6730u_pFkrEvG1UQxwtArQx8-OJ_gBewU04n6lZemG3SP2VcR6rb9Q71-jR0xuBVYIqCfUXneR5XLUWyL34WJCqsB5YZBz48eLesoTOHBHB7Y1m1187fEiwblBlR_2WmCnE5Jbx5H4gnVnLiQkqnKO6PQZEm4BZc"/>
+</div>
+</div>
+<div class="md:col-span-4 md:col-start-9 fade-up">
+<span class="font-label-caps text-label-caps text-taupe-detail mb-4 block">02 / Jewel of India, Jaipur</span>
+<h2 class="font-headline-md text-headline-md text-earth-ink mb-6">Minimalist Atelier</h2>
+<div class="w-12 h-px bg-taupe-detail mb-6 fade-up"></div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 leading-relaxed">
+                    A sanctuary for creativity. High ceilings and diffused northern light provide a canvas for thought. The palette is strictly monochromatic, allowing the warmth of natural cedar to provide the only color.
+                </p>
+<a class="font-label-caps text-label-caps border-b border-earth-ink pb-1 hover:opacity-50 transition-opacity" href="#">EXPLORE PROJECT</a>
+</div>
+</section>
+</main>
+</div>
+<!-- 3. OUR EXPERTISE SECTION -->
+<div class="fade-up" id="services">
+<main class="pt-24 overflow-x-hidden">
+<section class="max-w-container-max mx-auto px-margin-desktop py-section-gap-lg reveal">
+<div class="max-w-4xl fade-up">
+<span class="font-label-caps text-label-caps text-taupe-detail mb-6 block tracking-[0.2em]">CRAFTING SPACES</span>
+<h1 class="font-display-lg text-display-lg mb-12">Our expertise is defined by the intersection of precision and poetry.</h1>
+</div>
+<div class="hairline-h w-full fade-up"></div>
+</section>
+<section class="max-w-container-max mx-auto px-margin-desktop py-section-gap-md grid md:grid-cols-2 gap-gutter items-center reveal">
+<div class="order-2 md:order-1 fade-up">
+<span class="font-label-caps text-label-caps text-taupe-detail mb-4 block">01 / ARCHITECTURE</span>
+<h2 class="font-headline-md text-headline-md mb-6">Full Home Interiors</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg mb-8">
+                    We approach residential design as a singular narrative. From structural choreography to the finest textile tactile, every element is curated to foster a sense of "Ma"—the intentional void that allows life to breathe.
+                </p>
+<div class="flex flex-col gap-4 border-l border-taupe-detail/30 pl-6">
+<div class="flex items-start gap-3 fade-up">
+<span class="material-symbols-outlined text-taupe-detail">architecture</span>
+<p class="font-label-caps text-label-caps">SPATIAL CHOREOGRAPHY &amp; FLOW</p>
+</div>
+<div class="flex items-start gap-3 fade-up">
+<span class="material-symbols-outlined text-taupe-detail">palette</span>
+<p class="font-label-caps text-label-caps">MATERIAL SOURCING &amp; CURATION</p>
+</div>
+</div>
+</div>
+<div class="order-1 md:order-2 aspect-[4/5] bg-surface-variant fade-up"><img loading="lazy" alt="Full home interior" class="w-full h-full object-cover zoom-hover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQCq28SmEETkaTvmEIalh87Re2UnOG8FYZ64zR1jCCUsVxZkWOSmKkZIGyXAIeKhEIdOMzbczvaKBgPS7AJmhAWPuI4uux_CQ_hxlwyhp3Pw0OpmkV86hEaDJ-ia5ZSAvmbmQRuZm8_vf4IiLlI7WrcT7gCBBgUhbPt2E8TjY6Q3c1aSGCtrSbdroCmFAcUT-xIReCNt1kNzjuYfPldxFQY3bPXVJkz8Q7UPkhMxTB6Q9bfh6GcXyIkDAHX146Oee3hAhr4pLerMGF"/></div>
+</section>
+<section class="bg-surface-container-low py-section-gap-lg reveal fade-up">
+<div class="max-w-container-max mx-auto px-margin-desktop grid md:grid-cols-12 gap-gutter items-end">
+<div class="md:col-span-7 fade-up"><img loading="lazy" alt="Kitchen" class="w-full aspect-video object-cover zoom-hover" src="https://lh3.googleusercontent.com/aida-public/ADBb0uguTihAxokCbTRW_7PhvxlbGgH-8xed3DauBc38BBOVuR_hh8HABC-Yej1tS0uY1NKeWmyeXcY_Wfvv9WLJW-UpvrRfaBJhOspuFxA0sdH8-L2EDuevCiq3kcweJHXdgKS8aNnOw_-9XcWFSmPxVp7vezyuoEP45wZ8KnQyRq_6-z9XYPuGEtVfssrMa6Pbo1WaMIkN3qSTdzlUkakm3_KiZrgZ0wG77BqOYqaiIxgqyBx_U1xKDCGn6_w"/></div>
+<div class="md:col-span-5 md:pl-12 pb-8 fade-up">
+<span class="font-label-caps text-label-caps text-taupe-detail mb-4 block">02 / CULINARY ENGINE</span>
+<h2 class="font-headline-md text-headline-md mb-6">Modular Kitchens</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-10">Engineered for longevity and aesthetic purity. Our kitchens integrate professional-grade hardware with custom cabinetry.</p>
+<div class="space-y-6 fade-up">
+<div class="group border-b border-taupe-detail/20 pb-4 fade-up"><h4 class="font-label-caps text-label-caps flex justify-between">AQUABLOC TECHNOLOGY <span class="material-symbols-outlined text-sm">verified</span></h4><p class="text-sm mt-2 text-on-surface-variant">Zero-swelling moisture protection.</p></div>
+<div class="group border-b border-taupe-detail/20 pb-4 fade-up"><h4 class="font-label-caps text-label-caps flex justify-between">ANTIBUBBLE FINISH <span class="material-symbols-outlined text-sm">verified</span></h4><p class="text-sm mt-2 text-on-surface-variant">High-pressure lamination for flat surface.</p></div>
+</div>
+</div>
+</div>
+</section>
+<section class="max-w-container-max mx-auto px-margin-desktop py-section-gap-lg grid md:grid-cols-2 gap-gutter items-center reveal">
+<div class="pr-8 fade-up">
+<span class="font-label-caps text-label-caps text-taupe-detail mb-4 block">03 / PRIVATE SANCTUARY</span>
+<h2 class="font-headline-md text-headline-md mb-6">Bespoke Wardrobes</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8">Personalized storage solutions that prioritize order and texture.</p>
+<div class="grid grid-cols-2 gap-6 mb-12 fade-up">
+<div class="fade-up"><span class="block font-headline-sm">0.1s</span><span class="text-xs text-taupe-detail">SOFT-CLOSE ACTION</span></div>
+<div class="fade-up"><span class="block font-headline-sm">9H</span><span class="text-xs text-taupe-detail">SURFACE HARDNESS</span></div>
+</div>
+<button class="font-label-caps text-label-caps bg-earth-ink text-ivory-base px-10 py-4">DOWNLOAD BROCHURE</button>
+</div>
+<div class="aspect-[4/5] bg-surface-variant fade-up"><img loading="lazy" alt="Wardrobes" class="w-full h-full object-cover zoom-hover" src="https://lh3.googleusercontent.com/aida-public/ADBb0ugT3U63GmKL2YXd1zYhgSOHyDQeB1hmHkL4CQt6HO4LwffkMFFcv9M__r0a6TZDSyiMgq1vFqikBcDtu_nyGdOS0HsaO8YS-Wow7A6anKFKvjU1l9KvszPe-B5f99BAvAcQu49kNgVlW9L4GiVMz8WWdYibNTJgJXcz9P2ceAb12ExglT9w-AiYQIKbtB7D_CmGJ5loFYXVxer0y2U1WLrAwOd0uourDCSt8vXDkB-xtLc8c5SchpOx093N"/></div>
+</section>
+</main>
+</div>
+<!-- 4. THE METHODOLOGY SECTION -->
+<div class="fade-up" id="process">
+<main class="pt-32">
+<header class="px-margin-desktop max-w-container-max mx-auto mb-section-gap-lg reveal">
+<div class="max-w-4xl fade-up">
+<span class="font-label-caps text-label-caps text-taupe-detail mb-4 block">THE METHODOLOGY</span>
+<h1 class="font-display-lg text-display-lg leading-tight">A choreographed journey of space, soul, and <span class="italic font-light">intentionality</span>.</h1>
+</div>
+</header>
+<!-- Act I -->
+<section class="mb-section-gap-lg reveal fade-up">
+<div class="px-margin-desktop max-w-container-max mx-auto fade-up">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter fade-up">
+<div class="md:col-span-7 fade-up"><img loading="lazy" alt="Ultra-luxury residential interior for 'Full Home Interiors' section. A breathtaking, minimal living space featuring sculptural cream-colored plaster walls, wide-plank light oak flooring, and a low-profile linen sofa in oatmeal fabric." class="w-full h-[70vh] object-cover zoom-hover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6iU0vAtPGwkx2GJM3-8FgecIuHok7O_lI_BQorHFjl5qYzDZgso4HMN6F322AZsFErdJ5qlsCnN5VzcgLJPPYkMI3mO8UK3flJC-ity7UpfcAtgBDYcDe4mBhN1p_R2ZxxFV0swqg_ho67qA-9Do_lmkiTWU9m_ALwlKA3uxzW1gCTMd_iYmszhjzh06_EB9qqLHH02_y8i_c50HbNYh60_AgojdzXwZTwwoFoddsyu1m12SVEY7bHp1gPnmvY-RG2mY3DH12q-sH"/></div>
+<div class="md:col-span-5 flex flex-col justify-end pt-8 md:pt-0">
+<div class="pl-0 md:pl-12 border-l-0 md:border-l border-taupe-detail/20">
+<span class="font-label-caps text-label-caps text-taupe-detail">ACT I</span>
+<h2 class="font-headline-sm text-headline-sm mt-4 mb-6">The Consultation</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">We begin with the "Ma" — the space between. Our first encounter is a deep immersion into your lifestyle, rituals, and unspoken desires.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Act II -->
+<section class="bg-surface-container py-section-gap-lg mb-section-gap-lg reveal fade-up">
+<div class="px-margin-desktop max-w-container-max mx-auto fade-up">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+<div class="md:col-span-4 order-2 md:order-1 fade-up">
+<span class="font-label-caps text-label-caps text-taupe-detail">ACT II</span>
+<h2 class="font-headline-sm text-headline-sm mt-4 mb-6">The Curation</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-8">Selection is an act of discipline. We curate a tactile palette of raw materials — hand-applied plasters, sustainably sourced timbers.</p>
+<div class="hairline-x w-24 mb-6 fade-up"></div>
+<p class="font-body-md text-on-surface-variant italic">"True luxury is found in the integrity of the material and the hand of the artisan."</p>
+</div>
+<div class="md:col-span-8 order-1 md:order-2 fade-up"><img loading="lazy" alt="Act II" class="w-full aspect-video object-cover zoom-hover" src="https://lh3.googleusercontent.com/aida-public/ADBb0uhAANGUvi6OtZFGQEbFufd7NHut1D5-gIVhfuUWTrshezAaK7h7M-Hp9IulMAB9PQLzTjnLEMPfGqzQzEp9rPnJwF5nzitDC_B6JxdfESY1OnBxAKvjE9HMmBi8o0DIuc-j81TQ2fHtHgWpwW9btFawpz5eIYj9jxhKzyVux1Bq6BMFxQ7jnXAvubOB9WeJBLf4P7YA36czgahluqD3PTUSI8JuhksdJWi3o1c9Ehy8KvPQguS9L9_bfr4"/></div>
+</div>
+</div>
+</section>
+<!-- Act III -->
+<section class="mb-section-gap-lg reveal fade-up">
+<div class="px-margin-desktop max-w-container-max mx-auto fade-up">
+<div class="text-center max-w-3xl mx-auto mb-16 fade-up">
+<span class="font-label-caps text-label-caps text-taupe-detail">ACT III</span>
+<h2 class="font-display-lg text-display-lg mt-4">The Creation</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 fade-up">
+<div class="flex flex-col gap-6 fade-up">
+<div class="aspect-[3/4] overflow-hidden fade-up"><img loading="lazy" alt="Craft" class="w-full h-full object-cover grayscale zoom-hover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUTlh1638NzBWDGCxjxjGVvjWhIoPVxSHXq-ghVzbj8bUkU3ugcEKoPNG_wYwj5rG_976mOsGCNAFVT-H_KPjbh5YEVTBhgGhaoxdKAC9L98GbuzdzsNbsgxRYt860VHH7pVqbDPd8IjguhJOXXRwpgMgIALGnY4X627XziZF908o-VIOtNoF6cqiRBGs_Y-d-FYt1FD6F3I4GF-2_xV5XUjH60_0QdLMkLKrbNWPji6rKKRDj3M5to7V89xB7MBSJyZ2GcWXeeGUj"/></div>
+<h3 class="font-label-caps text-label-caps tracking-widest">PRECISION CRAFT</h3>
+</div>
+<div class="flex flex-col gap-6 md:mt-12 fade-up">
+<div class="aspect-[3/4] overflow-hidden fade-up"><img loading="lazy" alt="Structural" class="w-full h-full object-cover zoom-hover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxqTW5epeKTPCY_wqclVKiXxFYfH_v2CRCivnAHQlg4h_5pHmYngwfdMQygV7mCf5kQVdfc_vXPJB_2j62b3AlqTKboJ30eFz0VLAZOLcX_SND0YwGHf5URJR4mM1PNNikRoxEB0zPTHOf_w_BBaB887N9YKVOpVyCR4q-GwF08euOf5CgdIqbvshjYfNUqva2m2ChJoJKfyikgx8F9xc1j_NuOIMRlNGZ2QBXx7XDFqHAudQS6qeryWO_LSQO463uLLM2GhfVOLxJ"/></div>
+<h3 class="font-label-caps text-label-caps tracking-widest">STRUCTURAL POETRY</h3>
+</div>
+<div class="flex flex-col gap-6 md:mt-24 fade-up">
+<div class="aspect-[3/4] overflow-hidden fade-up"><img loading="lazy" alt="Sensory" class="w-full h-full object-cover grayscale zoom-hover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9SKzCbxE7c2JE8bmYgyxMFqh6fc-lLf97Y2i4A_pHcD5AYj4KGcdfcCG72X6GPgFzO0jEDbCxyHF1AtXNfSTF_w_XQlHE0Wrfq8iKSkgdWjxgyY50I15OWVxWN3tAOxqpKSX3hJg6m1pYjXLkXi2P386BsM9tGrJC_uGoGUTYvstjD8htxizPZbyJEFx2sXzBX31xmgLBjj3CTnBk8FQOQdiZwjKIsKR6FCeOzr_JhcXWTx70uwljllJf3HzV6Zc2yrWmQQoDiLPy"/></div>
+<h3 class="font-label-caps text-label-caps tracking-widest">SENSORY FINISH</h3>
+</div>
+</div>
+</div>
+</section>
+<!-- Act IV -->
+<section class="px-margin-desktop max-w-container-max mx-auto mb-section-gap-lg reveal">
+<div class="relative w-full h-[80vh] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0 fade-up">
+<img loading="lazy" alt="The Celebration" class="w-full h-full object-cover scale-105 zoom-hover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkUVZxMn0GjRODVFtmnYrgtnTCkBAux-b0IR1CXgZaaZySsBxJiNkrEl47c72ukJgw_rae4w2w-yE9gY3jnvnD6wqcrKGtvummwbgd3hJq6j1Ewi2V0VvLJm0RvEE7GZa182SSX6sV2sXO2q15myw1TEr-V1e5neh15nqaunnbLgZz12HEK5WROCHvY07c7JO91KQ5yEPgN-Deons3PZSJM0CO2qyaNx22pyHBfZbt8PApzfIEy6QDEtACMM_pR--hgOYjCICDV3dz"/>
+<div class="absolute inset-0 bg-earth-ink/20 fade-up"></div>
+</div>
+<div class="relative z-10 text-center text-ivory-base px-6">
+<span class="font-label-caps text-label-caps mb-6 block tracking-widest">ACT IV</span>
+<h2 class="font-display-lg text-display-lg mb-8">The Celebration</h2>
+<p class="font-body-lg text-body-lg max-w-2xl mx-auto leading-relaxed">The final act is yours. We step back, leaving you with a home that is no longer ours, but a living vessel for your story.</p>
+</div>
+</div>
+</section>
+</main>
+</div>
+<!-- 5. THE CONSULTATION SECTION -->
+<div class="fade-up" id="consultation">
+<main class="max-w-container-max mx-auto px-margin-desktop py-section-gap-lg reveal">
+<section class="mb-section-gap-lg fade-up">
+<div class="flex flex-col md:flex-row items-baseline justify-between gap-gutter border-b border-taupe-detail/30 pb-section-gap-md">
+<div class="max-w-3xl fade-up">
+<span class="font-label-caps text-label-caps text-taupe-detail uppercase tracking-[0.2em] mb-4 block">GHARAURA | The Consultation</span>
+<h1 class="font-display-lg text-display-lg leading-tight">Begin Your Journey</h1>
+</div>
+<p class="font-body-lg text-body-lg text-secondary max-w-sm">A collaborative dialogue where your spatial aspirations meet our Japandi architectural ethos.</p>
+</div>
+</section>
+<section class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-section-gap-lg">
+<!-- Sidebar -->
+<div class="md:col-span-4 order-2 md:order-1 flex flex-col gap-12">
+<div class="aspect-[4/5] bg-surface-container-low overflow-hidden fade-up"><img loading="lazy" alt="Detail" class="w-full h-full object-cover zoom-hover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfm4RAc9TLqOLUAZ8JU3T8H78PgENvt01whfCmTvQT_TaLnWP32RwtLiighm3APbQURJG-fM4Mk1BlpKaF8LP52vcz6EMAEx1qXtLGKrhvMIoZm0UtQxFEjpaWh2biR-Am8cJMzveNmzuLB6qKbqCuUGE3XrDu4I7z599WRQ78xNZLZ-rmseHNx67ziIb3ICvoAjq_QeELto35wbXyJfZX4DkA-_JgXDMojoSJsbBn4inKcTMwOCTXp8Y8MvWe_plfLZfx4phzSunE"/></div>
+<div class="flex flex-col gap-8 fade-up">
+<h3 class="font-label-caps text-label-caps text-earth-ink uppercase mb-6">gharaura collective</h3>
+<div class="flex flex-col gap-4 fade-up">
+<div class="flex items-center gap-3 p-4 bg-surface-container-low rounded-lg"><span class="material-symbols-outlined text-taupe-detail">location_on</span><p class="font-body-md">Jaipur, Rajasthan, India</p></div>
+<div class="flex items-center gap-3 p-4 bg-surface-container-low rounded-lg"><span class="material-symbols-outlined text-taupe-detail">call</span><p class="font-body-md">+91 97990 23445</p></div>
+<div class="flex items-center gap-3 p-4 bg-surface-container-low rounded-lg"><span class="material-symbols-outlined text-taupe-detail">alternate_email</span><p class="font-body-md">design@gharaura.com</p></div>
+</div>
+</div>
+</div>
+<div class="hidden md:block md:col-span-1 fade-up"><div class="hairline-y mx-auto h-full fade-up"></div></div>
+<!-- Form -->
+<div class="md:col-span-7 order-1 md:order-2 fade-up">
+<form id="inquiryForm" action="https://api.web3forms.com/submit" method="POST">
+<input type="hidden" name="access_key" value="91290385-1e17-4a05-9736-5ef9040b60c1">
+<input type="hidden" name="subject" value="New Gharaura Website Inquiry">
+<input type="hidden" name="from_name" value="Gharaura Website">
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-gutter gap-y-12">
+<div class="relative group fade-up">
+<label class="font-label-caps text-label-caps text-taupe-detail uppercase mb-2 block">Full Name</label>
+<input class="w-full bg-transparent border-0 border-b border-taupe-detail/30 py-2 px-0 font-body-lg focus:ring-0 focus:border-earth-ink" name="name" placeholder="Aarav Sharma" required="" type="text"/>
+</div>
+<div class="relative group fade-up">
+<label class="font-label-caps text-label-caps text-taupe-detail uppercase mb-2 block">Email Address</label>
+<input class="w-full bg-transparent border-0 border-b border-taupe-detail/30 py-2 px-0 font-body-lg focus:ring-0 focus:border-earth-ink" name="email" placeholder="aarav@studio.com" required="" type="email"/>
+</div>
+<div class="relative group fade-up">
+<label class="font-label-caps text-label-caps text-taupe-detail uppercase mb-2 block">Phone Number</label>
+<input class="w-full bg-transparent border-0 border-b border-taupe-detail/30 py-2 px-0 font-body-lg focus:ring-0 focus:border-earth-ink" name="phone" placeholder="+91 9876543210" required="" type="tel"/>
+</div>
+</div>
+<button class="bg-earth-ink text-ivory-base px-12 py-5 font-label-caps text-label-caps tracking-widest hover:opacity-90 self-start mt-8" type="submit">SUBMIT INQUIRY</button>
+</form>
+</div>
+</section>
+</main>
+</div>
+<!-- Signature Brand Footer -->
+<footer class="hairline-t pt-24 pb-12 px-margin-desktop max-w-container-max mx-auto reveal">
+<div class="flex flex-col items-center justify-center gap-12"><img loading="lazy" alt="GHARAURA Large Monogram" class="h-48 w-auto object-contain opacity-80 zoom-hover" src="https://lh3.googleusercontent.com/aida-public/ADBb0ujB7icE85Nn2R7SQw6xSjRtHKDYCl5NPoRPLAN-MgVENWhTTfPUWV4a5miC0CstZ5xywvNGbvKEddJ8t-fd41FtgTxwslpLFKqROxWSxiGYU2hpL8EqfidhXmlp70whIjR6YiQ41qi20rt4Sf54aaiAWbYErH_D6j_d-RfKnz4nGLpX39yf8cjJ_Z7BXyFTtv0NWubyEG1J8G1KTPyS45_g19CpMGNt6gNfeSmQ-1sQqfmd13IAvRX5rrygbcIIX9Udt7dohEIc7nk"/><div class="flex flex-col items-center gap-4 text-center mt-8"><span class="font-display-lg tracking-[0.5em] text-earth-ink uppercase font-light text-2xl">GHARAURA</span><p class="font-label-caps text-[10px] text-taupe-detail tracking-[0.2em] uppercase">Architectural | interiors |residential|commercial|renovations</p></div></div></footer>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+const form = document.getElementById("inquiryForm");
+
+form.addEventListener("submit", function() {
+
+const popup = document.getElementById("successPopup");
+
+setTimeout(()=>{
+popup.style.display = "block";
+},1000);
+
+setTimeout(()=>{
+popup.style.display = "none";
+},4000);
+
+});
+
+});
+</script>
+
+
+
+<script>
+const observer = new IntersectionObserver(entries => {
+entries.forEach(entry => {
+if(entry.isIntersecting){
+entry.target.classList.add('show');
+}
+});
+});
+
+document.querySelectorAll('.fade-up').forEach(el=>{
+observer.observe(el);
+});
+</script>
+<a class="whatsapp-float" href="https://wa.me/919799023445" target="_blank">✆</a>
+
+<div class="success-popup" id="successPopup">
+THANK YOU FOR CONTACTING GHARAURA
+</div>
+
+<section class="instagram-section fade-up">
+<h2 style="font-size:52px;font-family:'EB Garamond',serif;">Follow Our World</h2>
+<p style="margin-top:16px;">Explore curated interiors and architectural stillness.</p>
+<a class="instagram-btn" href="https://instagram.com/gharaura" target="_blank">VIEW INSTAGRAM</a>
+</section>
+<script>
+window.addEventListener("load", ()=>{
+setTimeout(()=>{
+document.getElementById("loader").style.opacity="0";
+setTimeout(()=>{
+document.getElementById("loader").style.display="none";
+},1000);
+},1800);
+});
+
+function toggleMenu(){
+const menu=document.getElementById("mobileMenu");
+if(menu.style.display==="flex"){
+menu.style.display="none";
+}else{
+menu.style.display="flex";
+}
+}
+
+const form=document.getElementById("inquiryForm");
+if(form){
+form.addEventListener("submit",()=>{
+setTimeout(()=>{
+const popup=document.getElementById("successPopup");
+popup.style.display="block";
+setTimeout(()=>{
+popup.style.display="none";
+},3000);
+},500);
+});
+}
+</script>
+<!-- Kitchen Popup -->
+<div class="popup-overlay" id="kitchenPopup">
+<div class="popup-box">
+<div class="close-popup" onclick="closeKitchenPopup()">×</div>
+<h2>Kitchen Estimate</h2>
+
+<select id="kitchenSize">
+<option value="150000">Small Kitchen</option>
+<option value="300000">Medium Kitchen</option>
+<option value="500000">Large Kitchen</option>
+</select>
+
+<select id="kitchenFinish">
+<option value="1">Laminate Finish</option>
+<option value="1.4">Acrylic Finish</option>
+<option value="1.8">Premium Veneer Finish</option>
+</select>
+
+<button class="submit-btn" onclick="calculateKitchen()">CALCULATE ESTIMATE</button>
+
+<div class="estimate-result" id="kitchenResult"></div>
+</div>
+</div>
+
+<!-- Wardrobe Popup -->
+<div class="popup-overlay" id="wardrobePopup">
+<div class="popup-box">
+<div class="close-popup" onclick="closeWardrobePopup()">×</div>
+<h2>Wardrobe Estimate</h2>
+
+<select id="wardrobeSize">
+<option value="80000">2 Door Wardrobe</option>
+<option value="140000">3 Door Wardrobe</option>
+<option value="220000">Walk-in Wardrobe</option>
+</select>
+
+<select id="wardrobeFinish">
+<option value="1">Laminate Finish</option>
+<option value="1.3">Glass Finish</option>
+<option value="1.7">Luxury Veneer Finish</option>
+</select>
+
+<button class="submit-btn" onclick="calculateWardrobe()">CALCULATE ESTIMATE</button>
+
+<div class="estimate-result" id="wardrobeResult"></div>
+</div>
+</div>
+
+<script>
+function openKitchenPopup(){
+document.getElementById('kitchenPopup').style.display='flex';
+}
+function closeKitchenPopup(){
+document.getElementById('kitchenPopup').style.display='none';
+}
+function openWardrobePopup(){
+document.getElementById('wardrobePopup').style.display='flex';
+}
+function closeWardrobePopup(){
+document.getElementById('wardrobePopup').style.display='none';
+}
+
+function calculateKitchen(){
+const size = parseInt(document.getElementById('kitchenSize').value);
+const finish = parseFloat(document.getElementById('kitchenFinish').value);
+const total = Math.round(size * finish);
+
+document.getElementById('kitchenResult').innerHTML =
+'Estimated Cost: ₹' + total.toLocaleString('en-IN');
+}
+
+function calculateWardrobe(){
+const size = parseInt(document.getElementById('wardrobeSize').value);
+const finish = parseFloat(document.getElementById('wardrobeFinish').value);
+const total = Math.round(size * finish);
+
+document.getElementById('wardrobeResult').innerHTML =
+'Estimated Cost: ₹' + total.toLocaleString('en-IN');
+}
+</script>
+
+<style>
+/* LIVSPACE STYLE PREMIUM MOBILE NAV */
+@media (max-width:768px){
+
+.gharaura-bottom-nav{
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+height:82px;
+background:#f8f5f2;
+display:flex;
+justify-content:space-around;
+align-items:center;
+border-top:1px solid #e8e0d8;
+z-index:99999;
+padding-bottom:env(safe-area-inset-bottom);
+}
+
+.gharaura-bottom-nav a{
+text-decoration:none;
+color:#2f2723;
+font-size:10px;
+letter-spacing:1px;
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:6px;
+font-family:sans-serif;
+}
+
+.gharaura-bottom-nav .icon{
+font-size:22px;
+line-height:1;
+}
+
+.gharaura-center-logo{
+width:62px;
+height:62px;
+border-radius:50%;
+background:#b79d84;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-top:-28px;
+box-shadow:0 8px 24px rgba(0,0,0,.18);
+}
+
+.gharaura-center-logo img{
+width:34px;
+height:34px;
+object-fit:contain;
+filter:brightness(10);
+}
+
+body{
+padding-bottom:95px !important;
+}
+}
+</style>
+
+<div class="gharaura-bottom-nav">
+<a href="#home">
+<div class="icon">⌂</div>
+<div>HOME</div>
+</a>
+
+<a href="#projects">
+<div class="icon">◫</div>
+<div>PROJECTS</div>
+</a>
+
+<a href="#contact">
+<div class="gharaura-center-logo">
+<img src="https://i.postimg.cc/VL7M0D4w/gharaura-logo.png">
+</div>
+<div>CONTACT</div>
+</a>
+
+<a href="#services">
+<div class="icon">☷</div>
+<div>SERVICES</div>
+</a>
+
+<a href="#more">
+<div class="icon">≡</div>
+<div>MORE</div>
+</a>
+</div>
+
+
+<style>
+@media (max-width:768px){
+
+.gh-bottom-nav{
+position:fixed;
+left:0;
+bottom:0;
+width:100%;
+height:78px;
+background:#f8f6f3;
+border-top:1px solid #e7dfd7;
+display:flex;
+justify-content:space-around;
+align-items:center;
+z-index:99999;
+padding-bottom:env(safe-area-inset-bottom);
+}
+
+.gh-bottom-nav a{
+text-decoration:none;
+color:#2f2723;
+font-family:Arial,sans-serif;
+font-size:10px;
+letter-spacing:1px;
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:5px;
+}
+
+.gh-icon{
+font-size:22px;
+line-height:1;
+}
+
+.gh-center{
+width:58px;
+height:58px;
+border-radius:50%;
+background:#b79d84;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-top:-30px;
+box-shadow:0 8px 20px rgba(0,0,0,.16);
+font-size:28px;
+color:white;
+font-weight:600;
+}
+
+body{
+padding-bottom:95px !important;
+}
+}
+</style>
+
+<div class="gh-bottom-nav">
+
+<a href="/">
+<div class="gh-icon">⌂</div>
+<div>HOME</div>
+</a>
+
+<a href="#projects">
+<div class="gh-icon">◫</div>
+<div>PROJECTS</div>
+</a>
+
+<a href="#contact">
+
+<div class="gh-center">
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAQABAADASIAAhEBAxEB/8QAHQABAAICAwEBAAAAAAAAAAAAAAcIAQYCBAUJA//EAGYQAQACAQMBBQQEBQoOChEFAQABAgMEBREGBxIhMUEIE1FhFCJxgRUWMpGhFxgjQlJikrPR0yQzNTZGVnKClJWxtcHSJSY0Y2RzpMLF1CdDRFNUZWZ0doWToqO0w+HwRVV1pcTx/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAQFBgMBAv/EADURAQABAgIGBwgDAQEBAQAAAAABAgMEEQUSITFBsRNRcYGh0fAUFTIzUmHB4SI0kSPxJJL/2gAMAwEAAhEDEQA/APp6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/Z" style="width:34px;height:34px;object-fit:contain;border-radius:50%;">
+</div>
+
+</a>
+
+<a href="#services">
+<div class="gh-icon">☷</div>
+<div>SERVICES</div>
+</a>
+
+<a href="https://instagram.com/gharaura_designs" target="_blank">
+<div class="gh-icon">≡</div>
+<div>MORE</div>
+</a>
+
+</div>
+
+</body></html>
