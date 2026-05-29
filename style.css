@@ -1748,106 +1748,62 @@ content:'−';
 }
 
 
-/* MOBILE HEADER PREMIUM ALIGNMENT FIX */
+/* EXACT HERO + HEADER PREMIUM UPDATE */
 @media (max-width:768px){
 
-.logo img,
-.navbar-logo img,
-.brand-logo img{
-    width:42px !important;
-    height:auto !important;
+/* HEADER EXACT ALIGNMENT */
+header,
+.navbar,
+.top-header{
+    padding-top:6px !important;
+    padding-bottom:6px !important;
+    min-height:68px !important;
 }
 
 .logo,
 .navbar-logo,
 .brand-logo{
-    gap:8px !important;
-    padding-left:10px !important;
-    align-items:center !important;
-}
-
-.logo-text,
-.brand-name,
-.navbar-brand{
-    margin-left:0 !important;
-    letter-spacing:0.18em !important;
-}
-
-header,
-.navbar,
-.top-header{
-    padding-left:12px !important;
-    padding-right:12px !important;
-}
-
-}
-
-
-/* FINAL MOBILE HEADER LUXURY FIX */
-@media (max-width:768px){
-
-header,
-.navbar,
-.top-header{
-    padding-top:8px !important;
-    padding-bottom:8px !important;
-    min-height:72px !important;
-}
-
-.logo,
-.navbar-logo,
-.brand-logo{
-    gap:4px !important;
-    padding-left:6px !important;
+    gap:2px !important;
+    padding-left:4px !important;
     align-items:center !important;
 }
 
 .logo img,
 .navbar-logo img,
 .brand-logo img{
-    width:46px !important;
+    width:48px !important;
     height:auto !important;
 }
 
 .logo-text,
 .brand-name,
 .navbar-brand{
-    margin-left:-2px !important;
+    margin-left:-6px !important;
+    letter-spacing:0.22em !important;
+    font-size:1.05rem !important;
+}
+
+/* SEND ENQUIRY BUTTON */
+.send-inquiry,
+.enquiry-btn,
+.header-btn{
+    padding:14px 22px !important;
+    border-radius:2px !important;
     letter-spacing:0.16em !important;
+    font-size:0.82rem !important;
+}
+
+/* HERO TAGLINE FONT */
+.hero-title,
+.hero-heading,
+.hero-text,
+.hero h1{
+    font-family:'Cormorant Garamond', serif !important;
+    font-weight:400 !important;
+    line-height:0.92 !important;
+    letter-spacing:-0.03em !important;
+    font-size:5.4rem !important;
 }
 
 }
 
-
-/* FINAL MOBILE HEADER REFINEMENT */
-@media (max-width:768px){
-
-header,
-.navbar,
-.top-header{
-    padding-top:8px !important;
-    padding-bottom:8px !important;
-    min-height:72px !important;
-}
-
-.logo,
-.navbar-logo,
-.brand-logo{
-    gap:4px !important;
-    padding-left:6px !important;
-}
-
-.logo img,
-.navbar-logo img,
-.brand-logo img{
-    width:46px !important;
-    height:auto !important;
-}
-
-.logo-text,
-.brand-name,
-.navbar-brand{
-    margin-left:-2px !important;
-}
-
-}
